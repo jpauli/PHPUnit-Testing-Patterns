@@ -1,0 +1,21 @@
+{
+	"name" : "j-pauli/testing-practices",
+	"type" : "library",
+	"description" : "PHPUnit mocks and stubs",
+	"homepage" : "http://jpauli.tech",
+	"license" : "BSD-2-Clause",
+	"authors" : [{
+			"name" : "Julien Pauli",
+			"email" : "jpauli@php.net"
+		}
+	],
+	"require" : {
+		"php" : ">=7.0",
+		"phpunit/phpunit": "8.*"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"TestingPractices\\" : "library/TestingPractices/"
+		}
+	}
+}
