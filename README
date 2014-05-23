@@ -1,0 +1,7 @@
+This project shows how to use Software Architecture principle to transform a code from a very poor object
+design to a rich extensible fully-testable project.
+This project also aims to make use of PHPUnit testing patterns : mocks and stubs
+
+This project is aimed for PHP training sessions and is not designed to be used as a production code as-is.
+
+PHP >= 8.1
